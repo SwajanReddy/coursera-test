@@ -13,10 +13,17 @@ body{
 	background-color: #61122F;
 	color: white;
 }
-.glyphicon{
+@media (max-width: 768px){
+ .visible-xs{
 	font-size: 30px;
 	color:#61122F; 
+ }
 }
+
+/*.xco{
+	font-size: 30px;
+	color:#61122F; 
+}*/
 
 .center{
 	width: 90%;
